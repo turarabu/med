@@ -8,6 +8,8 @@
     "builder": "vue-cli-service build --watch"
   },
   "dependencies": {
+    "pug": "^2.0.3",
+    "pug-plain-loader": "^1.0.0",
     "vue": "^2.6.6",
     "vue-router": "^3.0.1"
   },
