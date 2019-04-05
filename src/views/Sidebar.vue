@@ -207,8 +207,8 @@ $white = #FFFFFF
     display none
     border-left 1px solid $midnight
     position absolute
-    top 100px
-    left 100px
+    top 80px
+    left 150px
     width 300px
     &.active
         display block
