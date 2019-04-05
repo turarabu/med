@@ -23,6 +23,13 @@
                             a( class='link' ) результаты
                             span( class='span' ) анализа крови у пациента
                             a( class='link' ) Берик
+
+                    div( class='item' )
+                        h4( class='name' ) Сегодня в 09:05
+                        p( class='text' ) Готовы
+                            a( class='link' ) результаты
+                            span( class='span' ) анализа крови у пациента
+                            a( class='link' ) Ержан
 </template>
 
 <script>

@@ -167,6 +167,7 @@ $white = #FFFFFF
     bottom 0
     left 0
     width 150px
+    z-index 10
 
     .category-icon
         align-items center
