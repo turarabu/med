@@ -40,21 +40,34 @@ export default {
 
 <style lang="stylus" scoped>
 
+#chat
+    background #EAEAEA
+    position absolute
+    top 0
+    left 0
+    right 0
+    bottom 0
+
 #chat-history
+    background #fff
+    box-shadow 1px 0 1px RGBA(150, 150, 150, .3)
     position absolute
     top 0
     bottom 0
-    left 400px
-    right 0
+    left 425px
+    right 50px
+    overflow hidden
 
 #chat-list
+    background #fff
     padding 8px 0
     position absolute
     border-right 1px solid #DDD
+    box-shadow -1px 0 2px RGBA(150, 150, 150, .5)
     top 0
     bottom 0
-    left 0
-    width 300px
+    left 75px
+    width 350px
 
     .member
         align-items center
