@@ -59,6 +59,38 @@
                         div( class='actions right' )
                             span( class='members' ) Участников 8
                             button( class='go' ) Детали
+
+                    div( class='card' )
+                        h4( class='date' ) Создано 1 апреля, 16:43
+                        p( class='text' ) Провести корпоратив на день рождение доктора
+                            a( class='link' ) Ирины
+                        div( class='actions right' )
+                            span( class='members' ) Участников 8
+                            button( class='go' ) Детали
+
+                    div( class='card' )
+                        h4( class='date' ) Создано 1 апреля, 16:43
+                        p( class='text' ) Провести корпоратив на день рождение доктора
+                            a( class='link' ) Магоммеда
+                        div( class='actions right' )
+                            span( class='members' ) Участников 9
+                            button( class='go' ) Детали
+
+                    div( class='card' )
+                        h4( class='date' ) Создано 1 апреля, 16:43
+                        p( class='text' ) Провести корпоратив на день рождение доктора
+                            a( class='link' ) Арсена
+                        div( class='actions right' )
+                            span( class='members' ) Участников 8
+                            button( class='go' ) Детали
+
+                    div( class='card' )
+                        h4( class='date' ) Создано 1 апреля, 16:43
+                        p( class='text' ) Провести корпоратив на день рождение главврача
+                            a( class='link' ) Мерид
+                        div( class='actions right' )
+                            span( class='members' ) Участников 12
+                            button( class='go' ) Детали
 </template>
 
 <script>
