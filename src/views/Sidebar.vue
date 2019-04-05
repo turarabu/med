@@ -137,16 +137,10 @@ function toggleMain (name, el) {
 
     if (icon && icon !== event.target)
         icon.classList.remove('active');
-    else event.target.classList.add('active');
 
     for (let i = 0; i != event.path.length; ++i) {
-        if (event.path[i].classList.contains('category-icon')) {
-            if (icon && icon === event.path[i])
-                icon.classList.remove('active');
-            else event.path[i].classList.add('active');
-
-            return;
-        }
+        if (event.path[i].classList.contains('category-icon')) 
+            return event.path[i].classList.add('active');
     }
         
 }
@@ -181,6 +175,7 @@ $white = #FFFFFF
         display flex
         flex-direction column
         justify-content center
+        border-left 0px solid #000
         text-align center
         height 100px
         width 100%
@@ -188,6 +183,8 @@ $white = #FFFFFF
             background $midnight
         &.active
             background $midnight
+            border-left 3px solid $red
+            padding-right 3px
 
             .fa
                 color $red !important

@@ -2,7 +2,8 @@
     div#app
         Topbar
         Sidebar
-        router-view
+        div#view
+            router-view
 </template>
 
 <script>
@@ -23,9 +24,19 @@ export default {
 <style lang="stylus">
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500&subset=cyrillic,cyrillic-ext,latin-ext')
 @import url('https://use.fontawesome.com/releases/v5.8.1/css/all.css')
+@import url('https://fonts.googleapis.com/css?family=Lobster')
 
 *
+    box-sizing border-box
     font-family 'Roboto', sans-serif
     text-decoration none
     transition .15s all
+
+#view
+    overflow auto
+    position absolute
+    top 100px
+    left 150px
+    right 0
+    bottom 0
 </style>
