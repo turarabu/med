@@ -165,15 +165,14 @@ $red = RGB(227, 117, 118)
 $wetasphalt = RGB(61, 74, 83)
 $white = #FFFFFF
 
-
 .sidebar
     background $wetasphalt
     color $white
     position fixed
-    top 100px
+    top 80px
     bottom 0
     left 0
-    width 150px
+    width 100px
     z-index 10
 
     .category-icon
@@ -200,10 +199,11 @@ $white = #FFFFFF
         .fa
             color $green
             display block
-            font-size 36px    
+            font-size 24px    
         
         .text
             display block
+            font-size 14px
             color #DDD
             font-weight 300
             margin-top 8px
@@ -212,8 +212,8 @@ $white = #FFFFFF
     display none
     border-left 1px solid $midnight
     position absolute
-    top 80px
-    left 150px
+    top 100px
+    left 100px
     width 300px
     &.active
         display block

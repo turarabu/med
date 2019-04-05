@@ -6,8 +6,8 @@
             i( class='fa fa-search' )
 
         div( class='account' )
-            img( class='avatar' src='@/assets/avatar.png' )
             span( class='name' ) Абдулла
+            img( class='avatar' src='@/assets/avatar.png' )
             i( class='fa fa-angle-down' )
         
         div( class='panel' )
@@ -30,25 +30,25 @@ $logo-bg = RGB(251, 85, 87)
     align-items center
     box-shadow 0 0 3px #777
     display grid
-    grid-template-columns 150px auto 200px 220px
+    grid-template-columns 100px auto 200px 175px
     position fixed
     top 0
     left 0
-    height 100px
+    height 80px
     width 100%
     z-index 5
 
     .logo
         background $logo-bg
         font-family 'Lobster', cursive
-        font-size 32px
+        font-size 24px
         letter-spacing 2px
         color #EEE
         align-items center
         display inline-flex
         justify-content center
         height 100%
-        width 150px
+        width 100px
 
     .top-container
         display inline-flex
@@ -62,29 +62,32 @@ $logo-bg = RGB(251, 85, 87)
             outline none
             font-size 20px
             font-weight 300
-            padding 0 8px 0 64px
+            padding 0 8px 0 56px
             position relative
             z-index 4
-            height 90px
-            width calc(100% - 150px)
+            height 75px
+            width calc(100% - 50px)
 
         .fa
             position absolute
-            left 28px
-            font-size 22px
+            left 18px
+            font-size 18px
             color #555
-            top 34px
+            top 30px
             z-index 3
 
     .account
         align-items center
         cursor pointer
         display inline-flex
+        padding-right 24px
         position relative
+        justify-content flex-end
 
         .avatar
             border-radius 50%
             box-shadow 0 0 3px #999
+            margin 0 12px
             height 40px
             width 40px
 
@@ -93,12 +96,9 @@ $logo-bg = RGB(251, 85, 87)
             display inline-block
             font-size 18px
             font-weight 500
-            margin-left 12px
 
         .fa
             font-size 20px
-            position absolute
-            right 28px
     
     .panel
         align-items center
@@ -112,7 +112,7 @@ $logo-bg = RGB(251, 85, 87)
             color #555
             cursor pointer
             display inline-block
-            font-size 28px
+            font-size 20px
             margin 0 16px
             &:hover
                 color #333

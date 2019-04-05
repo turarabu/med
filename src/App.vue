@@ -35,8 +35,8 @@ export default {
 #view
     overflow auto
     position absolute
-    top 100px
-    left 150px
+    top 80px
+    left 100px
     right 0
     bottom 0
 </style>

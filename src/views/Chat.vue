@@ -26,8 +26,17 @@
                     p( class='last' ) Да, это я разработал!
 
         div#chat-history
-
+            ChatHistory
 </template>
+
+<script>
+import ChatHistory from '@/components/ChatHistory.vue'
+
+export default {
+    components: { ChatHistory }
+}
+</script>
+
 
 <style lang="stylus" scoped>
 

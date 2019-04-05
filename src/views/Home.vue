@@ -104,13 +104,13 @@
 
                     div( class='item' )
                         h4( class='name' ) 1 аперля, 14:45
-                        p( class='text' )
+                        p( class='text' ) Пациент
                             a( class='link' ) Михаил
-                            span( class='span' ) перенёс первоапрельсую клиническую смерть
+                            span( class='span' ) перенёс первоапрельскую клиническую смерть
 
                     div( class='item' )
                         h4( class='name' ) 31 марта, 17:10 
-                        p( class='text' ) Поступил: пациент с открытой черепно-мозговой травмой
+                        p( class='text' ) Поступил пациент с открытой черепно-мозговой травмой
 </template>
 
 <script>
@@ -131,10 +131,10 @@ $white = #FFFFFF
 .content
     margin 32px auto
     display grid
-    grid-template-columns auto 320px
+    grid-template-columns auto 360px
 
     .activity
-        margin 0 32px
+        margin-left 32px
 
         .title
             border-bottom 2px solid $red
@@ -156,7 +156,7 @@ $white = #FFFFFF
             flex-direction column
             margin 16px 16px 0 0
             overflow hidden
-            width 300px
+            width 315px
 
             .date
                 color #777
@@ -177,6 +177,8 @@ $white = #FFFFFF
                 .go
                     background $green
                     border none
+                    border-right darken($green, 20)
+                    border-bottom darken($green, 15)
                     color $white
                     cursor pointer
                     outline none
