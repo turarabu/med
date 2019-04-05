@@ -22,77 +22,77 @@
 
         div( id="category" class='category-block c-c' )
             div( class='category' )    
-                span( class='label' @click='toggleCategory' ) Терапия
+                span( class='label' @click='toggleCategory' ) Отделения терапии
                 div( class='list' )
-                    span( class='name' @click='cLink' ) Кардиологическое
-                    span( class='name' @click='cLink' ) Онкологическое
-                    span( class='name' @click='cLink' ) Неврологическое
-                    span( class='name' @click='cLink' ) Пульмонологическое
-                    span( class='name' @click='cLink' ) Ревматологическое
-                    span( class='name' @click='cLink' ) Гастроэнтерологическое
-                    span( class='name' @click='cLink' ) Эндокринологическое
-                    span( class='name' @click='cLink' ) Аллергологическое
+                    span( class='name' @click='cLink' ) Кардиологические
+                    span( class='name' @click='cLink' ) Онкологические
+                    span( class='name' @click='cLink' ) Неврологические
+                    span( class='name' @click='cLink' ) Пульмонологические
+                    span( class='name' @click='cLink' ) Ревматологические
+                    span( class='name' @click='cLink' ) Гастроэнтерологические
+                    span( class='name' @click='cLink' ) Эндокринологические
+                    span( class='name' @click='cLink' ) Аллергологические
 
             div( class='category' )    
-                span( class='label' @click='toggleCategory' ) Хирургия
+                span( class='label' @click='toggleCategory' ) Отделения хирургии
                 div( class='list' )
-                    span( class='name' @click='cLink' ) Кардиохирургичекое 
-                    span( class='name' @click='cLink' ) Нейрохирургическре
-                    span( class='name' @click='cLink' ) Травматологическое 
-                    span( class='name' @click='cLink' ) Онкохирургическое
-                    span( class='name' @click='cLink' ) Урологическое
+                    span( class='name' @click='cLink' ) Кардиохирургичекие 
+                    span( class='name' @click='cLink' ) Нейрохирургические
+                    span( class='name' @click='cLink' ) Травматологические 
+                    span( class='name' @click='cLink' ) Онкохирургические
+                    span( class='name' @click='cLink' ) Урологические
 
             div( class='category' )    
-                span( class='label' @click='toggleCategory' ) Педиатрия
+                span( class='label' @click='toggleCategory' ) Отделения педиатрии
                 div( class='list' )
-                    span( class='name' @click='cLink' ) Педиатрическое
-                    span( class='name' @click='cLink' ) Кабинет здорового ребёнка 
-                    span( class='name' @click='cLink' ) Прививочный 
+                    span( class='name' @click='cLink' ) Педиатрические
+                    span( class='name' @click='cLink' ) Кабинета здорового ребёнка 
+                    span( class='name' @click='cLink' ) Прививочные
 
             div( class='category' )    
-                span( class='label' @click='toggleCategory' ) Гинекология
+                span( class='label' @click='toggleCategory' ) Отделения гинекологии
                 div( class='list' )
-                    span( class='name' @click='cLink' ) Акушерско-гинекологическое
-                    span( class='name' @click='cLink' ) Смотровые
+                    span( class='name' @click='cLink' ) Акушерско-гинекологические
+                    span( class='name' @click='cLink' ) Смотровых
                     span( class='name' @click='cLink' ) Мамологические
 
             div( class='category' )    
-                span( class='label' @click='toggleCategory' ) Диспансеры 
+                span( class='label' @click='toggleCategory' ) Диспансерские 
                 div( class='list' )
-                    span( class='name' @click='cLink' ) Фтизиатрический 
-                    span( class='name' @click='cLink' ) Психиатрический
-                    span( class='name' @click='cLink' ) Наркологический
+                    span( class='name' @click='cLink' ) Фтизиатрические 
+                    span( class='name' @click='cLink' ) Психиатрические
+                    span( class='name' @click='cLink' ) Наркологические
 
             div( class='category' )    
-                span( class='label' @click='toggleCategory' ) Диагностическое
+                span( class='label' @click='toggleCategory' ) Диагностические
                 div( class='list' )
-                    span( class='name' @click='cLink' ) Рентгенологическое
-                    span( class='name' @click='cLink' ) Компьютерная томография 
-                    span( class='name' @click='cLink' ) Флюорографический 
+                    span( class='name' @click='cLink' ) Рентгенологические
+                    span( class='name' @click='cLink' ) Компьютерной томографии 
+                    span( class='name' @click='cLink' ) Флюорографические
                     span( class='name' @click='cLink' ) Электрокардиографии и функциональной диагностики
-                    span( class='name' @click='cLink' ) Дистанционно- диагностический 
-                    span( class='name' @click='cLink' ) Эндоскопии
+                    span( class='name' @click='cLink' ) Дистанционно-диагностические 
+                    span( class='name' @click='cLink' ) Эндоскопие
                     span( class='name' @click='cLink' ) Ультразвуковой диагностики
 
             div( class='category' )    
-                span( class='label' @click='toggleCategory' ) Лаборатории
+                span( class='label' @click='toggleCategory' ) Лабораторные
                 div( class='list' )
                     span( class='name' @click='cLink' ) Радиоизотопной диагностики 
-                    span( class='name' @click='cLink' ) Бактериологическое
-                    span( class='name' @click='cLink' ) Серологическое 
-                    span( class='name' @click='cLink' ) Биохимическое
-                    span( class='name' @click='cLink' ) Цитологическое 
+                    span( class='name' @click='cLink' ) Бактериологические
+                    span( class='name' @click='cLink' ) Серологические 
+                    span( class='name' @click='cLink' ) Биохимические
+                    span( class='name' @click='cLink' ) Цитологические 
 
             div( class='category' )    
-                span( class='label' @click='toggleCategory' ) Инфекционная
+                span( class='label' @click='toggleCategory' ) Инфекционные
                 div( class='list' )
-                    span( class='name' @click='cLink' ) Для взрослых 
-                    span( class='name' @click='cLink' ) Для детей 
+                    span( class='name' @click='cLink' ) Взрослых
+                    span( class='name' @click='cLink' ) Детей 
 
             div( class='category' )    
                 span( class='label' @click='toggleCategory' ) Другие
                 div( class='list' )
-                    span( class='name' @click='cLink' ) Вакцинация
+                    span( class='name' @click='cLink' ) Вакцинации
 </template>
 
 <script>
