@@ -63,7 +63,7 @@ function createConfig(gridlines, title) {
 function create () {
     var self = this;
     [{
-        title: 'Статистика по принятым пациентам за прошедшие 3 месяца',
+        title: 'Статистика по принятым решениям за прошедшие 3 месяца',
         gridLines: {
             display: true
         }
