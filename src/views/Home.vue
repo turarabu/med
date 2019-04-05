@@ -2,6 +2,7 @@
     div#home
         div( class='content' )
             div( class='activity' )
+                SomeGraph
 
                 div( class='block' )
                     h3( class='title' ) Отчёты
@@ -98,8 +99,10 @@
 </template>
 
 <script>
+import SomeGraph from '@/components/SomeGraph.vue'
+
 export default {
-    
+    components: { SomeGraph }
 }
 </script>
 
