@@ -1,14 +1,24 @@
-<template>
-
-    <div id="app">
-        <div id="nav">
-            <router-link to="/">Home</router-link> |
-            <!-- <router-link to="/about">About</router-link> -->
-        </div>
-        <router-view/>
-    </div>
-
+<template lang="pug">
+    div#app
+        Topbar
+        Sidebar
+        router-view
 </template>
+
+<script>
+import Topbar from '@/views/Topbar.vue'
+import Sidebar from '@/views/Sidebar.vue'
+
+export default {
+  components: { Topbar, Sidebar },
+  data: function () {
+    return {
+
+    }
+  }
+}
+</script>
+
 
 <style lang="stylus">
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500&subset=cyrillic,cyrillic-ext,latin-ext')
