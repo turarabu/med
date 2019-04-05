@@ -1,6 +1,6 @@
 <template lang="pug">
     div( class='sidebar' )
-        div( class='category-icon active' @click='toggleMain("", $event)' )
+        div( class='category-icon active' @click='toggleMain("", $event, "/")' )
             i( class='fa fa-home' )
             span( class='text' ) Главная
 
@@ -122,7 +122,7 @@ function toggleCategory (event) {
     }
 }
 
-function toggleMain (name, el) {
+function toggleMain (name, el, route) {
     var current = this.$el.querySelector(`.c-c.active`);
     var icon = this.$el.querySelector('.category-icon.active');
 
@@ -139,14 +139,18 @@ function toggleMain (name, el) {
         icon.classList.remove('active');
 
     for (let i = 0; i != event.path.length; ++i) {
-        if (event.path[i].classList.contains('category-icon')) 
-            return event.path[i].classList.add('active');
+        if (event.path[i].classList && event.path[i].classList.contains('category-icon')) 
+            event.path[i].classList.add('active');
     }
+
+    if (route)
+        this.$router.push(route);
         
 }
 
 function cLink () {
     this.$el.querySelector(`.c-c.active`).classList.remove('active');
+    this.$router.push('charts');
 }
 
 </script>
