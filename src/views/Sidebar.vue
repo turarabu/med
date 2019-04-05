@@ -8,15 +8,18 @@
             i( class='fa fa-list' )
             span( class='text' ) Отчёты
 
-        div( class='category-icon' @click='toggleMain("", $event)' )
+        div( class='category-icon' @click='toggleMain("", $event, "/library")' )
             i( class='fa fa-book' )
             span( class='text' ) Библиотека
 
         div( class='category-icon' @click='toggleMain("", $event)' )
             i( class='fa fa-file-medical-alt' )
             span( class='text' ) Пациенты
+        div( class='category-icon' @click='toggleMain("", $event, "/tasks")' )
+            i( class='fa fa-check-double' )
+            span( class='text' ) Задачи
 
-        div( class='category-icon' @click='toggleMain("", $event)' )
+        div( class='category-icon' @click='toggleMain("", $event, "/chat")' )
             i( class='fa fa-comment-medical' )
             span( class='text' ) Чат
 

@@ -96,6 +96,21 @@
                             a( class='link' ) результаты
                             span( class='span' ) анализа крови у пациента
                             a( class='link' ) Ержан
+
+                    div( class='item' )
+                        h4( class='name' ) Вчера в 21:22
+                        p( class='text' ) Тревожный сигнал ЭГК в отделе реанимации. Пациент
+                            a( class='link' ) Пупкин
+
+                    div( class='item' )
+                        h4( class='name' ) 1 аперля, 14:45
+                        p( class='text' )
+                            a( class='link' ) Михаил
+                            span( class='span' ) перенёс первоапрельсую клиническую смерть
+
+                    div( class='item' )
+                        h4( class='name' ) 31 марта, 17:10 
+                        p( class='text' ) Поступил: пациент с открытой черепно-мозговой травмой
 </template>
 
 <script>
